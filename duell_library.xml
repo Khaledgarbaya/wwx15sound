@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library xmlns="duell">
+
+    <!-- Setting up a shared backend can use this logic. -->
+    <include path="backends/wwx15sound_shared/duell_library.xml" if="android||ios" />
+
+    <!-- Setting up independent backends. For further native configuration check available libraries. -->
+    <include path="backends/wwx15sound_ios/duell_library.xml" if="ios" />
+    <include path="backends/wwx15sound_flash/duell_library.xml" if="flash" />
+    <include path="backends/wwx15sound_android/duell_library.xml" if="android" />
+    <include path="backends/wwx15sound_html5/duell_library.xml" if="html5" />
+
+</library>
