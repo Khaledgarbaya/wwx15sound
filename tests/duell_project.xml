@@ -7,7 +7,8 @@
     
     <source path="Source" />
 
-	<duelllib name="unittest" version="3.0.0+" />
+    <duelllib name="duellkit" version="4.0.0+" />
+	<duelllib name="unittest" version="4.0.0+" />
     <duelllib name="wwx15sound" version="master" />
     
 </project>
