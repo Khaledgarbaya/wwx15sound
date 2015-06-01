@@ -3,11 +3,11 @@
     
     <app title="WWXSoundTest" file="wwxSoundTest" package="com.yourorganisation.soundproject" version="0.0.1" company="Your Organisation"  />
 
-    <main name="MainUnitTest" />>
+    <main name="MainUnitTest" />
     
     <source path="Source" />
 
+	<duelllib name="unittest" version="3.0.0+" />
     <duelllib name="wwx15sound" version="master" />
-    <duelllib name="unittest" version="1.0.0+" />
-
+    
 </project>
