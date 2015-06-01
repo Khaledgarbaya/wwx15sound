@@ -1,8 +1,9 @@
 # Checklist
 
 - Rename all "sample" things to the name of the library of your choice (x)
-- In development, don't forget to set `haxelib dev duell_*` on your library
 - Remove unused backends, plugins or configurations
+- Make your library a git repository, give it a remote repo (like Github).
+- In development, don't forget to set `haxelib dev duell_*` on your library
 - Implement your library
 - Tell the world how awesome your new library is and brag about it endlessly
 
